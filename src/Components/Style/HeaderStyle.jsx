@@ -88,4 +88,5 @@ export const Botao = styled.button`
     border-radius: 2em;
     border: none;
     cursor: pointer;
+
 `

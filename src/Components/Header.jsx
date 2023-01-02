@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './Img/Logox2.png';
+import logo from '../Img/Logox2.png';
 import * as S from './Style/HeaderStyle.jsx'
 
 function Header() {
