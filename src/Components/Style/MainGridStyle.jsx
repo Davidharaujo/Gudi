@@ -11,6 +11,16 @@ import gradep4 from '../../Img/gradep4.png'
 
 export const ImagemGrade = styled.img`
     width: 50%;
+
+    @media screen and (max-width: 720px){
+        width: 100%;
+        height: 40vw;
+        object-fit: cover;
+        
+        &.img2{
+            object-position: 30% 10%;
+        }
+    }
 `
 
 export const CaptionGrade = styled.figcaption`
@@ -21,6 +31,16 @@ export const CaptionGrade = styled.figcaption`
     flex-direction: column;
     color: #fff;
     padding-left: 4vw;
+    padding-right: 4vw;
+
+    @media screen and (max-width: 720px){
+        width: 100%;
+        height: 25vw;
+
+        &.cap2{
+            align-items: flex-end;
+        }
+    }
 `
 
 export const Caixa = styled.div`
@@ -29,6 +49,14 @@ export const Caixa = styled.div`
     display: flex;
     align-items: center;
     gap: .5em;
+
+    @media screen and (max-width: 720px){
+        &.caixa2{
+            align-items: center;
+            flex-direction: row-reverse;
+        }
+        
+    }
 `
 
 export const Linha = styled.hr`
@@ -42,6 +70,10 @@ export const Titulo = styled.h2`
     font-weight: 300;
     font-size: .9vw;
     letter-spacing: .2vw;
+
+    @media screen and (max-width: 720px){
+        font-size: 1.2vw;
+    }
 `
 
 export const Chamada = styled.p`
@@ -50,13 +82,24 @@ export const Chamada = styled.p`
     font-size: 3.7vw;
     font-weight: bold;
     line-height: 4vw;
+    @media screen and (max-width: 720px){
+        &.chamada2{
+            text-align: right;
+        }
+    }
 `
-
 export const TextoGrid = styled.p`
     width: 80%;
     font-size: 1.3vw;
     font-weight: 300;
     margin-bottom: 1.5vw;
+
+    @media screen and (max-width: 720px){
+        font-size: 1.6vw;
+        &.texto2{
+            text-align: right;
+        }
+    }
 `
 export const BotaoGrid = styled.button`
     width: 20%;
@@ -76,6 +119,10 @@ export const BotaoGrid = styled.button`
         border: none;
         transition: 500ms;
     }
+    @media screen and (max-width: 720px){
+        font-size: 1.5vw;
+        height: 4.5vw;
+    }
 `
 
 export const BotaoBlur = styled.button`
@@ -91,6 +138,10 @@ export const BotaoBlur = styled.button`
     border: 1px solid;
     cursor: pointer;
     backdrop-filter: blur(5px);
+    @media screen and (max-width: 720px){
+        height: 5vw;
+        font-size: 1.5vw;
+    }
 `
 // CONFIGURAÇÃO DO GRID DE IMAGENS
 
@@ -99,6 +150,11 @@ export const Grade = styled.section`
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(7, 1fr);
+
+    @media screen and (max-width: 720px){
+        display: flex;
+        flex-flow: column wrap;
+    }
 `
 
 export const CaixaG1 = styled.figure`
@@ -108,6 +164,10 @@ export const CaixaG1 = styled.figure`
     grid-row-end: 3;
     display: flex;
     height: 100%;
+
+    @media screen and (max-width: 720px){
+        flex-direction: column;
+    }
 `
 export const CaixaG2 = styled.figure`
     grid-column-start: 1;
@@ -116,6 +176,10 @@ export const CaixaG2 = styled.figure`
     grid-row-end: 5;
     display: flex;
     height: 100%;
+    @media screen and (max-width: 720px){
+        flex-direction: column-reverse;
+
+    }
 `
 export const CaixaG3 = styled.figure`
     grid-column-start: 1;
@@ -124,6 +188,9 @@ export const CaixaG3 = styled.figure`
     grid-row-end: 7;
     display: flex;
     height: 100%;
+    @media screen and (max-width: 720px){
+        flex-direction: column;
+    }
 `
 export const CaixaP1 = styled.figure`
     grid-column-start: 1;
@@ -136,6 +203,11 @@ export const CaixaP1 = styled.figure`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 720px){
+        height: 30vw;
+        background-position: 30% 40%;
+    }
 `
 export const CaixaP2 = styled.figure`
     grid-column-start: 2;
@@ -148,6 +220,11 @@ export const CaixaP2 = styled.figure`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 720px){
+        height: 30vw;
+        background-position: 0% 20%;
+    }
 `
 export const CaixaP3 = styled.figure`
     grid-column-start: 3;
@@ -160,6 +237,10 @@ export const CaixaP3 = styled.figure`
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width: 720px){
+        height: 30vw;
+        background-position: 0% 70%;
+    }
 `
 export const CaixaP4 = styled.figure`
     grid-column-start: 4;
@@ -172,4 +253,9 @@ export const CaixaP4 = styled.figure`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 720px){
+        height: 30vw;
+        background-position: 0% 60%;
+    }
 `

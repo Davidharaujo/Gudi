@@ -20,16 +20,15 @@ function MainGrid() {
                 </S.CaptionGrade>
             </S.CaixaG1>
             <S.CaixaG2>
-                
-                <S.CaptionGrade>
-                    <S.Caixa>
+                <S.CaptionGrade className='cap2'>
+                    <S.Caixa className='caixa2'>
                         <S.Linha /><S.Titulo>VIAGENS NACIONAIS</S.Titulo>
                     </S.Caixa>
-                    <S.Chamada>Curta uma nova vibe entre amigos</S.Chamada>
-                    <S.TextoGrid>Rachando a conta ou rachando o bico, a melhor hora pra curtir é entre amigos. Conheça nossos Planos Multi.</S.TextoGrid>
+                    <S.Chamada className='chamada2'>Curta uma nova vibe entre amigos</S.Chamada>
+                    <S.TextoGrid className='texto2'>Rachando a conta ou rachando o bico, a melhor hora pra curtir é entre amigos. Conheça nossos Planos Multi.</S.TextoGrid>
                     <S.BotaoGrid>AGENDAR</S.BotaoGrid>
                 </S.CaptionGrade>
-                <S.ImagemGrade src={grade2} alt="Amigos juntos." />
+                <S.ImagemGrade className='img2' src={grade2} alt="Amigos juntos." />
             </S.CaixaG2>
             <S.CaixaG3>
                 <S.ImagemGrade src={grade3} alt="Familia curtindo piscina." />

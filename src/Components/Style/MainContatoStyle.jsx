@@ -8,12 +8,18 @@ export const Container = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1vh;
+    gap: 1vw;
+    @media screen and (max-width: 720px){
+        gap: 1.5vw;
+    }
 `
 
 export const Titulo = styled.h1`
     color: #fff;
     font-size: 2.8vw;
+    @media screen and (max-width: 720px){
+        font-size: 3.6vw;
+    }
 `
 
 export const Barra = styled.input`
@@ -22,10 +28,18 @@ export const Barra = styled.input`
     border-radius: 2vw;
     border: none;
     padding-left: 1.5vw;
-    
 
     &::placeholder{
         color: #AFB3B8;
+        font-size: 1vw;
+    }
+    @media screen and (max-width: 720px){
+        width: 45%;
+        height: 5vw;
+
+        &::placeholder{
+            font-size: 1.5vw;
+        }
     }
 `
 
@@ -41,6 +55,16 @@ export const CaixaTexto = styled.textarea`
 
     &::placeholder{
         color: #AFB3B8;
+        font-size: 1vw;
+    }
+    @media screen and (max-width: 720px){
+        width: 45%;
+        height: 10vw;
+        border-radius: 3vw;
+
+        &::placeholder{
+            font-size: 1.5vw;
+        }
     }
 `
 
@@ -52,6 +76,7 @@ export const Botao = styled.button`
     background-color: transparent;
     color: #fff;
     font-weight: 300;
+    font-size: 1vw;
     letter-spacing: 0.3vw;
     border-radius: 2vw;
     border: 1px solid;
@@ -62,5 +87,11 @@ export const Botao = styled.button`
         color: #005BD5;
         border: none;
         transition: 500ms;
+    }
+
+    @media screen and (max-width: 720px){
+        width: 35%;
+        height: 5vw;
+        font-size: 1.8vw;
     }
 `

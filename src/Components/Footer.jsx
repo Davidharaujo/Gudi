@@ -5,7 +5,7 @@ import logo from '../Img/Logox2.png'
 function Footer() {
     return ( 
         <S.Container>
-            <S.Navigation>
+            <S.Navigation className='navesp'>
                 <S.Logo src={logo} alt="Logomarca" />
                 <S.Menu>
                     <S.Topico>Sobre nós</S.Topico>
@@ -14,7 +14,7 @@ function Footer() {
                     <S.Topico>Nosso blog</S.Topico>
                 </S.Menu>
             </S.Navigation>
-            <S.Navigation>
+            <S.Navigation className='contato'>
                 <S.Titulo>Contato</S.Titulo>
                 <S.Menu>
                     <S.Topico>Chat Virtual</S.Topico>

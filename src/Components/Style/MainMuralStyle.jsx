@@ -19,16 +19,26 @@ export const CaixaTexto = styled.div`
     flex-direction: column;
     text-align: center;
     line-height: 2.5vw;
+    @media screen and (max-width: 720px){
+        width: 30%;
+        line-height: 3vw;
+    }
 `
 export const TextoMural = styled.p`
     color: #8B8B8B;
     font-size: 1.2vw;
     font-weight: 500;
+    @media screen and (max-width: 720px){
+        font-size: 1.9vw;
+    }
 `
 export const ChamadaMural = styled.h1`
     color: #8B8B8B;
     font-weight: 800;
     font-size: 2.8vw;
+    @media screen and (max-width: 720px){
+        font-size: 3.6vw;
+    }
 `
 export const Mural = styled.figure`
     width: 80%;
@@ -41,6 +51,9 @@ export const Mural = styled.figure`
 `
 export const ImagemMural = styled.img`
     width: 25%;
+    @media screen and (max-width: 720px){
+        width: 40%;
+    }
 `
 //COMPOSIÇÃO DA MAIN PARTE TRÊS: TAGS //
 
@@ -50,10 +63,13 @@ export const CaixaTags = styled.div`
     justify-content: space-between;
     align-items: center;
     margin-bottom: 4vw;
+    @media screen and (max-width: 720px){
+        width: 65%;
+    }
 `
 export const Tag1 = styled.figure`
-    width: 15%;
-    height: 13vw;
+    width: 23%;
+    height: 15vw;
     padding-top: 2vw;
     background-color: #EEEEEE;
     display: flex;
@@ -62,10 +78,14 @@ export const Tag1 = styled.figure`
     gap: 1vw;
     color: #005BD5;
     font-weight: 700;
+    @media screen and (max-width: 720px){
+        width: 15vw;
+        height: 17vw;
+    }
 `
 export const Tag2 = styled.figure`
-    width: 15%;
-    height: 13vw;
+    width: 23%;
+    height: 15vw;
     padding-top: 2vw;
     background-color: #005BD5;
     display: flex;
@@ -75,6 +95,11 @@ export const Tag2 = styled.figure`
     color: #fff;
     font-weight: 700;
     text-align: center;
+
+    @media screen and (max-width: 720px){
+        width: 15vw;
+        height: 17vw;
+    }
 `
 export const TagImagem = styled.img`
     width: 60%;
@@ -87,4 +112,8 @@ export const TagTexto = styled.figcaption`
     width: 70%;
     text-align: center;
     font-size: 1vw;
+
+    @media screen and (max-width: 720px){
+        font-size:1.5vw;
+    }
 `

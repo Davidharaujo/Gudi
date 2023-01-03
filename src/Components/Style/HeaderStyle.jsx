@@ -4,12 +4,21 @@ import chamada from '../../Img/chamadax2.png'
 export const Logo = styled.img`
     width:12vw;
     height:2vw;
+
+    @media screen and (max-width: 720px){
+        height:4vw;
+        width: 18vw;
+    }
 `
 export const Section = styled.section`
     width: 100%;
     height: 45vw;
     display: flex;
     flex-direction: column;
+
+    @media screen and (max-width: 720px){
+        height:50vw
+    }
 `
 
 export const Nav = styled.nav`
@@ -19,6 +28,10 @@ export const Nav = styled.nav`
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width: 720px){
+        height:7vw
+    }
 `
 export const Menu = styled.ul`
     list-style: none;
@@ -27,6 +40,10 @@ export const Menu = styled.ul`
     align-items: center;
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 720px){
+        width: 50%;
+    }
    `
 export const Topico = styled.li`
     font-weight: 600;
@@ -48,7 +65,15 @@ export const Topico = styled.li`
         border-radius: 2vw;
         cursor: pointer;
         transition: 5ms;
-        
+    }
+
+    @media screen and (max-width: 720px){
+        font-size: 2vw;
+
+        &.botao{
+            padding: 1vw 2.5vw;
+            font-size: 1.5vw;
+        }
     }
 `
 
@@ -85,6 +110,12 @@ export const Barra = styled.input`
     border-radius: 2vw;
     border: none;
     padding: 0 2vw;
+
+    @media screen and (max-width: 720px){
+        font-size: 2vw;
+        width: 75%;
+        height: 5vw;
+    }
 `
 export const Botao = styled.button`
     width: 20%;
@@ -99,4 +130,9 @@ export const Botao = styled.button`
     border: none;
     cursor: pointer;
 
+    @media screen and (max-width: 720px){
+        width: 30%;
+        height: 4.5vw;
+        font-size: 1.5vw;
+    }
 `
