@@ -8,10 +8,10 @@ function Header() {
             <S.Nav>
                 <S.Logo src={logo} alt="Logo da Marca VeriGudi" />
                 <S.Menu>
-                    <li>Sobre</li>
-                    <li>Benefícios</li>
-                    <li>Contato</li>
-                    <li className='botao'>AGENDAR</li>
+                    <S.Topico>Sobre</S.Topico>
+                    <S.Topico>Benefícios</S.Topico>
+                    <S.Topico>Contato</S.Topico>
+                    <S.Topico className='botao'>AGENDAR</S.Topico>
                 </S.Menu>
             </S.Nav>
             <S.Chamada>

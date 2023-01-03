@@ -20,12 +20,12 @@ export const CaptionGrade = styled.figcaption`
     justify-content: center;
     flex-direction: column;
     color: #fff;
-    padding-left: 4em;
+    padding-left: 4vw;
 `
 
 export const Caixa = styled.div`
     width: 100%;
-    height: 3em;
+    height: 3.5vw;
     display: flex;
     align-items: center;
     gap: .5em;
@@ -40,32 +40,33 @@ export const Linha = styled.hr`
 export const Titulo = styled.h2`
     text-transform: uppercase;
     font-weight: 300;
-    font-size: .8em;
-    letter-spacing: .2em;
+    font-size: .9vw;
+    letter-spacing: .2vw;
 `
 
 export const Chamada = styled.p`
     width: 70%;
-    margin-bottom: .3em;
-    font-size: 3.5em;
+    margin-bottom: 1vw;
+    font-size: 3.7vw;
     font-weight: bold;
-    line-height: 1em;
+    line-height: 4vw;
 `
 
 export const TextoGrid = styled.p`
     width: 80%;
-    font-size: 1.1em;
+    font-size: 1.3vw;
     font-weight: 300;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5vw;
 `
 export const BotaoGrid = styled.button`
     width: 20%;
-    height: 3em;
+    height: 4vw;
     background-color: transparent;
     color: #fff;
     font-weight: 300;
-    letter-spacing: 0.2em;
-    border-radius: 2em;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    border-radius: 2vw;
     border: 1px solid;
     cursor: pointer;
 
@@ -79,13 +80,14 @@ export const BotaoGrid = styled.button`
 
 export const BotaoBlur = styled.button`
     width: 50%;
-    height: 3em;
+    height: 4vw;
     background-color: rgba(0,0,0,0.2);
     background-image: blur;
     color: #fff;
     font-weight: 300;
-    letter-spacing: 0.2em;
-    border-radius: 2em;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    border-radius: 2vw;
     border: 1px solid;
     cursor: pointer;
     backdrop-filter: blur(5px);

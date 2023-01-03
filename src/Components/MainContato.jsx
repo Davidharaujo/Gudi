@@ -1,5 +1,5 @@
 import React from 'react'
-import * as S from './Style/MainContato'
+import * as S from './Style/MainContatoStyle'
 
 export default function MainContato() {
   return (

@@ -2,26 +2,26 @@ import  styled  from 'styled-components';
 
 export const Container = styled.section`
     width: 100%;
-    padding: 4em;
+    padding: 4vw;
     background-color: #005BD5;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: .5em;
+    gap: 1vh;
 `
 
 export const Titulo = styled.h1`
     color: #fff;
-    font-size: 2.5em;
+    font-size: 2.8vw;
 `
 
 export const Barra = styled.input`
     width: 30%;
-    height: 3em;
-    border-radius: 2em;
+    height: 3vw;
+    border-radius: 2vw;
     border: none;
-    padding-left: 1.5em;
+    padding-left: 1.5vw;
     
 
     &::placeholder{
@@ -31,13 +31,12 @@ export const Barra = styled.input`
 
 export const CaixaTexto = styled.textarea`
     width: 30%;
-    height: 6em;
+    height: 6vw;
     border-radius: 2em;
     border: none;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-top: 1em;
-    color: #AFB3B8;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1vw;
     text-align: top;
 
     &::placeholder{
@@ -47,14 +46,14 @@ export const CaixaTexto = styled.textarea`
 
 export const Botao = styled.button`
     width: 10%;
-    height: 3em;
-    margin-top: 1em;
+    height: 3vw;
+    margin-top: 1vw;
     text-transform:uppercase;
     background-color: transparent;
     color: #fff;
     font-weight: 300;
-    letter-spacing: 0.2em;
-    border-radius: 2em;
+    letter-spacing: 0.3vw;
+    border-radius: 2vw;
     border: 1px solid;
     cursor: pointer;
 
